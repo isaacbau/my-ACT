@@ -1,6 +1,6 @@
 from torch import Tensor, nn
 
-from .ACT_encoder import get_activation_fn
+from ACT_encoder import get_activation_fn
 
 
 class ACTDecoder(nn.Module):

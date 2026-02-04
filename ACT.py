@@ -7,11 +7,11 @@ import numpy as np
 import torch
 from torch import Tensor, nn
 
-from .ACT_decoder import ACTDecoder
-from .ACT_encoder import ACTEncoder
-from .configuration_act import ACTConfig
-from .ACT_image_encoder import ACTImageEncoder
-from .ACT_state_encoder import ACTStateEncoder
+from ACT_decoder import ACTDecoder
+from ACT_encoder import ACTEncoder
+from configuration_act import ACTConfig
+from ACT_image_encoder import ACTImageEncoder
+from ACT_state_encoder import ACTStateEncoder
 
 OBS_STR = "observation"
 OBS_ENV_STATE = OBS_STR + ".environment_state"

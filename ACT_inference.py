@@ -5,8 +5,8 @@ import torch
 import torch.nn.functional as F  # noqa: N812
 from torch import Tensor, nn
 
-from .ACT import ACT
-from .configuration_act import ACTConfig
+from ACT import ACT
+from configuration_act import ACTConfig
 
 OBS_STR = "observation"
 OBS_ENV_STATE = OBS_STR + ".environment_state"
