@@ -7,8 +7,10 @@ import sys
 
 import torch
 
-sys.path.insert(0, "/Users/ibau/Projects/analyze/lerobot/tmp")
-from act import ACT, ACTConfig, FeatureType, PolicyFeature
+sys.path.insert(0, os.path.dirname(__file__))
+from ACT import ACT
+from configuration_act import ACTConfig
+from act_types import FeatureType, PolicyFeature
 
 try:
     import wandb
